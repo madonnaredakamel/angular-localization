@@ -1,4 +1,6 @@
 { 
     "Hello": "مرحبا",
-    "This is a test text": "مجرد نص"
+    "This is a test text": "مجرد نص",
+    "Home":"الرئيسيه",
+    "Link":"مسار"
  }

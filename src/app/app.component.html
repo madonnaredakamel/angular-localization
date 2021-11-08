@@ -1,6 +1,12 @@
-
-<button (click)="changeLangage('ar')">Arabic</button>
-<button (click)="changeLangage('en')">English</button>
+<app-nav></app-nav>
+<li class="nav-item btn-rotate" ngbDropdown placement="bottom-left">
+  <a  (click)="changeLangage('en')" class="nav-link">
+    English
+  </a>
+  <a  (click)="changeLangage('ar')" class="nav-link">
+    عربي
+  </a>
+</li> 
 
 
 

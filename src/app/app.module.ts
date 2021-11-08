@@ -6,13 +6,15 @@ import { HttpClient, HttpClientModule } from "@angular/common/http";
 
 
 import { AppComponent } from "./app.component";
+import { PagesComponent } from './components/pages/pages.component';
+import { NavComponent } from './components/pages/nav/nav.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
 }
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, PagesComponent, NavComponent],
   imports: [
     BrowserModule,
     
